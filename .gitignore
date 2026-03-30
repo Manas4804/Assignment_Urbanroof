@@ -1,0 +1,18 @@
+# Environment / secrets — NEVER commit these
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# Output images (large binary files, not needed in repo)
+output/images/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
